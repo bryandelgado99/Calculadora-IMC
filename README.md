@@ -10,5 +10,5 @@ Esta calculadora ofrece al usuario 3 tipos de calculos:
 ## ESPECIFICACIONES DE CÓDIGO
 Al ser un programa realizado en C++, se presentará dentro de la consola del sistema Windows. Esta se realizó usando GOTOXY para agregar un sentido temático y visual a la interfaz de usuario. 
 
-![Calculator Screensnapshot] (/images/imc.png)
+![Calculator Screensnapshot] (/images/imc.png.png)
 
