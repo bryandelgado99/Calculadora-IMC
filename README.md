@@ -11,7 +11,7 @@ Esta calculadora ofrece al usuario 3 tipos de calculos:
 Al ser un programa realizado en C++, se presentará dentro de la consola del sistema Windows. Esta se realizó usando GOTOXY para agregar un sentido temático y visual a la interfaz de usuario. 
 
 <p align="center">
-  <img src="calculator.png">
+  <img src="/images/calculator.png">
  </p>
   
 
