@@ -45,6 +45,7 @@ char car = char(s);
 //Protitpado de Funciones|Function Prototyping
 void startup();
 void actions();
+void conclusions();
 	
 //Funcion Principal |Main Function
 int main(){
@@ -122,26 +123,8 @@ void actions(){
 			gotoxy(8,19); cout<<"--------------> SU INDICE DE IMC ES: "<<imc;
 			cout<<endl;
 			
-				//Condicionales para analisis de IMC
-				if(imc <= 18.5){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Inuficiencia Poderal";
-				}
-				if(18.5 > imc && imc <= 24.9){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee IMC Normal";
-				}
-				if(25 >= imc && imc <= 29.9){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Preobesidad";
-				}
-				if(30 >= imc && imc <= 34.9){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase I";
-				}
-				if(35 >= imc && imc <= 39.9){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase II";
-				}
-				if(imc >= 40){
-					gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase III";
-				}
-	
+			conclusions();
+			
 			break;
 		}
 			
@@ -150,4 +133,29 @@ void actions(){
 			break;
 	}
 }
+	
+//Funcion para determinar el resultado del analisis
+void conclusions(){
+	//Condicionales para analisis de IMC
+	if(imc <= 18.5){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Inuficiencia Poderal";
+	}
+	if(18.5 > imc && imc <= 24.9){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee IMC Normal";
+	}
+	if(25 >= imc && imc <= 29.9){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Preobesidad";
+	}
+	if(30 >= imc && imc <= 34.9){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase I";
+	}
+	if(35 >= imc && imc <= 39.9){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase II";
+	}
+	if(imc >= 40){
+		gotoxy(8, 21); cout<<"Analisis Obtenido: Usted posee Obesidad Clase III";
+	}
+		
+}
+
 	
